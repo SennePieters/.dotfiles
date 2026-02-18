@@ -62,6 +62,7 @@ button.active {
 tooltip {
   opacity: 1;
 }
+
 /* span { */
 /*   background-color: #ff0000; */
 /* } */
@@ -109,6 +110,7 @@ window#waybar.empty #window {
 #workspaces button {
   margin-right: 2px;
 }
+
 #workspaces button:last-child {
   margin-right: 0;
 }
