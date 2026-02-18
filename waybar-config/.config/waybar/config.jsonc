@@ -14,23 +14,21 @@
     "~/.config/waybar/quicklinks.json",
     "~/.config/waybar/hardware.json",
     "~/.config/waybar/media.json",
-    "~/.config/waybar/media.json"
+    "~/.config/waybar/media.json",
   ],
   "modules-left": [
     "custom/appmenu",
     "group/quicklinks",
     "tray",
-    "hyprland/window"
+    "hyprland/window",
   ],
-  "modules-center": [
-    "hyprland/workspaces"
-  ],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "network",
     // "mpd",
     "group/media",
     "group/hardware",
     "clock",
-    "custom/notification"
-  ]
+    "custom/notification",
+  ],
 }

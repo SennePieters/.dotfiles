@@ -76,7 +76,6 @@ window#waybar.empty #window {
 
 #workspaces,
 #custom-appmenu,
-#quicklinks,
 #media,
 #hardware,
 #clock,
@@ -90,23 +89,6 @@ window#waybar.empty #window {
 #hardware,
 #clock {
   padding: 0 8px;
-}
-
-#custom-quicklink1,
-#custom-quicklink2,
-#custom-quicklink3,
-#custom-quicklink4,
-#custom-quicklink5,
-#custom-quicklink6,
-#custom-quicklink7,
-#custom-quicklink8,
-#custom-quicklink9,
-#custom-quicklink10 {
-  font-size: 1.5rem;
-  margin: 0 0.5rem;
-}
-#custom-quicklink1 {
-  /* margin-left: 0; */
 }
 
 #cpu,
@@ -166,9 +148,6 @@ label:focus {
 
 #backlight {
   background-color: @activeBg;
-}
-
-#quicklinks {
 }
 
 #temperature.critical {
