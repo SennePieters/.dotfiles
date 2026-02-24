@@ -1,0 +1,26 @@
+configuration {
+    /* Modes you want to enable: window switcher, run command, and app launcher */
+    modi: "window,run,drun";
+    
+    /* Default font */
+    font: "Fira Code 12";
+    
+    /* Enable application icons */
+    show-icons: true;
+    icon-theme: "Papirus";
+    
+    /* Terminal emulator to use for terminal applications */
+    terminal: "alacritty";
+    
+    /* Case insensitive search */
+    case-sensitive: false;
+    
+    /* Sort results */
+    sort: true;
+    
+    /* Window switcher settings */
+    window-format: "{w} · {c} · {t}";
+}
+
+/* Load the theme file (defined in the next step) */
+@theme "theme"

@@ -1,0 +1,74 @@
+/* Global variables and colors */
+* {
+    bg-color: #282c34;
+    fg-color: #abb2bf;
+    accent-color: #61afef;
+    selected-bg: #3e4452;
+
+    /* Set default background and text colors for all elements */
+    background-color: @bg-color;
+    text-color: @fg-color;
+}
+
+/* The main Rofi window */
+window {
+    width: 30%;
+    border: 2px solid;
+    border-color: @accent-color;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* The container holding everything inside the window */
+mainbox {
+    spacing: 10px;
+}
+
+/* The search bar area */
+inputbar {
+    padding: 8px;
+    background-color: @selected-bg;
+    border-radius: 4px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    text-color: @accent-color;
+    font: "Fira Code Bold 12";
+    margin: 0px 10px 0px 0px;
+}
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: #5c6370;
+}
+
+/* The list of results */
+listview {
+    lines: 8;
+    columns: 1;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+/* Individual items in the list */
+element {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+element selected {
+    background-color: @accent-color;
+    text-color: @bg-color;
+}
+
+element-text selected {
+    background-color: @accent-color;
+    text-color: @bg-color;
+}
+
+element-icon {
+    size: 1.5em;
+    margin: 0px 10px 0px 0px;
+    background-color: transparent;
+}
