@@ -84,7 +84,7 @@ case "$1" in
     if [ -z "$title" ]; then
         echo ""
     else
-        echo "${title:0:15}..." # Limit the output to 50 characters
+        echo "${title:0:15}..." # Limit the output to 15 characters
     fi
     ;;
 --artist)
@@ -92,7 +92,7 @@ case "$1" in
     if [ -z "$artist" ]; then
         echo ""
     else
-        echo "${artist:0:20}" #mit the output to 50 characters
+        echo "${artist:0:20}" # Limit the output to 20 characters
     fi
     ;;
 --position)
