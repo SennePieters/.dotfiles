@@ -53,4 +53,7 @@ handle() {
   done <<< "$open_specials"
 }
 
-socat -u UNIX-CONNECT:"$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock" - | while read -r line; do handle "$line"; done
+socket="$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock"
+# Wait for the socket to be ready to prevent startup failure
+while [ ! -S "$socket" ]; do sleep 0.1; done
+socat -u UNIX-CONNECT:"$socket" - | while read -r line; do handle "$line"; done
