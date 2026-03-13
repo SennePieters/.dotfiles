@@ -12,7 +12,8 @@
 
 /* The main Rofi window */
 window {
-    width: 30%;
+    width: 800px;
+    height: 500px;
     border: 2px solid;
     border-color: @accent-color;
     border-radius: 8px;
@@ -21,6 +22,34 @@ window {
 
 /* The container holding everything inside the window */
 mainbox {
+    spacing: 10px;
+    orientation: horizontal;
+    children: [ message, right-panel ];
+}
+
+/* --- Left Panel (Status) --- */
+message {
+    width: 30%;
+    padding: 20px;
+    background-color: @selected-bg;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: @accent-color;
+}
+
+textbox {
+    font: "Fira Code 14";
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+    text-color: @fg-color;
+}
+
+/* --- Right Panel (Apps & Search) --- */
+right-panel {
+    expand: true;
+    orientation: vertical;
+    children: [ inputbar, listview ];
+    background-color: transparent;
     spacing: 10px;
 }
 
@@ -45,7 +74,7 @@ entry {
 
 /* The list of results */
 listview {
-    lines: 8;
+    lines: 12;
     columns: 1;
     spacing: 4px;
     scrollbar: false;
