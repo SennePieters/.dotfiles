@@ -1,0 +1,20 @@
+{
+  "audioSubsystem": "experimental",
+  "offloadAdmControls": true,
+  "BACKGROUND_COLOR": "#000000",
+  "chromiumSwitches": {},
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 200,
+    "y": 126,
+    "width": 1283,
+    "height": 720
+  },
+  "enableHardwareAcceleration": false,
+  "OPTIN_OPTIONAL_UPDATES": true,
+  "asyncVideoInputDeviceInit": true,
+  "enableH264MFElectron": true,
+  "openH264Enabled": true,
+  "enableH264MFZeroCopy": true
+}

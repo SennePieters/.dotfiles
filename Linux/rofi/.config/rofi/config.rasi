@@ -1,0 +1,31 @@
+configuration {
+    /* Modes you want to enable: window switcher, run command, and app launcher */
+    modi: "combi,drun,run,window";
+    combi-modi: "dashboard:~/.config/rofi/dashboard.sh,drun";
+    combi-hide-mode-prefix: true;
+    
+    /* Default font */
+    font: "Fira Code 12";
+    
+    /* Enable application icons */
+    show-icons: true;
+    icon-theme: "Papirus";
+    
+    /* Terminal emulator to use for terminal applications */
+    terminal: "alacritty";
+    
+    /* Case insensitive search */
+    case-sensitive: false;
+    
+    /* Sort results */
+    sort: true;
+    
+    /* Window switcher settings */
+    window-format: "{w} · {c} · {t}";
+
+    /* Show the sidebar to switch between modes */
+    sidebar-mode: true;
+}
+
+/* Load the theme file (defined in the next step) */
+@theme "theme.rasi"

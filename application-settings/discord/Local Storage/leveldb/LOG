@@ -1,0 +1,22 @@
+2026/04/04-16:25:59.318 364 Reusing MANIFEST C:\Users\Senne\AppData\Roaming\discord\Local Storage\leveldb/MANIFEST-000001
+2026/04/04-16:25:59.322 364 Recovering log #4558
+2026/04/04-16:25:59.323 364 Level-0 table #4561: started
+2026/04/04-16:25:59.326 364 Level-0 table #4561: 58229 bytes OK
+2026/04/04-16:25:59.327 364 Delete type=0 #4558
+2026/04/04-16:37:29.016 376c Level-0 table #4564: started
+2026/04/04-16:37:29.053 376c Level-0 table #4564: 4498528 bytes OK
+2026/04/04-16:37:29.055 376c Delete type=0 #4562
+2026/04/04-16:37:29.058 376c Compacting 4@0 + 2@1 files
+2026/04/04-16:37:29.122 376c Generated table #4565@0: 43 keys, 4508439 bytes
+2026/04/04-16:37:29.144 376c Generated table #4566@0: 130 keys, 1775394 bytes
+2026/04/04-16:37:29.144 376c Compacted 4@0 + 2@1 files => 6283833 bytes
+2026/04/04-16:37:29.144 376c compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/04/04-16:37:29.144 376c Delete type=2 #4553
+2026/04/04-16:37:29.145 376c Delete type=2 #4554
+2026/04/04-16:37:29.145 376c Delete type=2 #4557
+2026/04/04-16:37:29.145 376c Delete type=2 #4559
+2026/04/04-16:37:29.145 376c Delete type=2 #4561
+2026/04/04-16:37:29.145 376c Delete type=2 #4564
+2026/04/04-20:05:18.526 376c Level-0 table #4568: started
+2026/04/04-20:05:18.528 376c Level-0 table #4568: 50569 bytes OK
+2026/04/04-20:05:18.529 376c Delete type=0 #4563
